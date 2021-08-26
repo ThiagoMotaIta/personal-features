@@ -1,0 +1,1 @@
+{!! QrCode::format('svg')->size(150)->errorCorrection('H')->generate(Request::getHttpHost() . '/protocolo-virtual/' . $id . '/exportar-pdf') !!}

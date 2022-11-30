@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Thiago Mota">
+<meta name="keywords" content="teste, green plataform, cadastro, usuário">
+<link rel="stylesheet" href="css/style.css">
+<link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<body>
+
+<div class="main-top">
+  <img src="img/Logo Full.svg" class="logo">
+</div>
+
+<div class="pag-id">
+  User Form
+  <span class="alertFill"><small>*Required fields</small></span>
+</div>
+
+<div class="client-list" role="alert">
+
+  <div id="msn"></div>
+
+  <form id="formClients">
+  <div class="form-row">
+    <div class="col-6">
+      <label>Full Name*</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="col-4">
+      <label>ID*</label>
+      <input type="text" class="form-control" placeholder="Identification" id="cpf">
+    </div>
+    <div class="col-2">
+      <label>Birth*</label>
+      <input type="text" class="form-control" placeholder="dd/mm/aaaa" data-mask="00/00/0000" id="birth-date">
+    </div>
+  </div>
+
+  <hr/>
+
+  <div class="form-row">
+    <div class="col-6">
+      <label>State*</label>
+      <select class="form-control" id="state">
+        <option value="">Select One</option>
+      </select>
+    </div>
+    <div class="col-4">
+      <label>City*</label>
+      <select class="form-control" disabled="disabled" id="city">
+        <option value="">Select State first</option>
+      </select>
+    </div>
+    <div class="col-2">
+      <label class="lb-btn"></label>
+      <button type="button" class="form-control btn btn-success" onclick="validateForm()">
+        <strong>Add</strong>
+      </button>
+    </div>
+  </div>
+</form>
+
+<hr/>
+<table class="table table-bordered" id="clients-table"></table>
+  
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="editClientModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edit Client</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="formClientsEdit">
+          <div class="form-row">
+            <div class="col-6">
+              <label>Full Name*</label>
+              <input type="text" class="form-control" id="nameEdit">
+            </div>
+            <div class="col-4">
+              <label>ID*</label>
+              <input type="text" class="form-control" placeholder="Identification" id="cpfEdit">
+            </div>
+            <div class="col-2">
+              <label>Birth*</label>
+              <input type="text" class="form-control" placeholder="dd/mm/aaaa" data-mask="00/00/0000" id="birth-dateEdit">
+            </div>
+          </div>
+
+          <hr/>
+
+          <div class="form-row">
+            <div class="col-6">
+              <label>State*</label>
+              <select class="form-control" id="stateEdit">
+                <option value="">Select One</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <label>City*</label>
+              <select class="form-control" id="cityEdit">
+                <option value="">Select One</option>
+              </select>
+            </div>
+            <div class="col-2">
+              <label class="lb-btn"></label>
+              <button type="button" id="tbn-edit-client" class="form-control btn btn-success">
+                + <strong>Update</strong>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+<script src="js/jquery-3.6.1.js"></script>
+<script src="js/jquery.mask.js"></script>
+<script src="js/web-app.js"></script>
+
+<!-- For modal ONLY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+    $("#state").append("<option value='CE'>Ceará (CE)</option>");
+    $("#state").append("<option value='RJ'>Rio de Janeiro (RJ)</option>");
+    $("#state").append("<option value='SP'>São Paulo (SP)</option>");
+
+    $("#stateEdit").append("<option value='CE'>Ceará (CE)</option>");
+    $("#stateEdit").append("<option value='RJ'>Rio de Janeiro (RJ)</option>");
+    $("#stateEdit").append("<option value='SP'>São Paulo (SP)</option>");
+
+  });
+</script>
+
+</body>
+</html>

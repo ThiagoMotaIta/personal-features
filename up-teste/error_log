@@ -1,0 +1,5 @@
+[02-Mar-2021 01:59:44 UTC] PHP Warning:  move_uploaded_file() expects exactly 2 parameters, 1 given in /home/nextplay/public_html/up-test/upload.php on line 14
+[02-Mar-2021 02:09:51 UTC] PHP Warning:  move_uploaded_file(up-test/ups//htaccess): failed to open stream: No such file or directory in /home/nextplay/public_html/up-test/upload.php on line 14
+[02-Mar-2021 02:09:51 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxcxdPv' to 'up-test/ups//htaccess' in /home/nextplay/public_html/up-test/upload.php on line 14
+[02-Mar-2021 02:10:22 UTC] PHP Warning:  : failed to open stream: No such file or directory in /home/nextplay/public_html/up-test/upload.php on line 14
+[02-Mar-2021 02:10:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpCTYLt7' to 'up-test/ups//Sem+T�tulo-1.jpg' in /home/nextplay/public_html/up-test/upload.php on line 14

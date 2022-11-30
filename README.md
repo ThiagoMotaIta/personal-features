@@ -1,2 +1,2 @@
 # project-news
-PHP/LARAVEL projetc built for sales management
+PHP/LARAVEL projetc built for news management

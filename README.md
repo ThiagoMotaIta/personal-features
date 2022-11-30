@@ -1,2 +1,2 @@
 # project-api
-PHP/LARAVEL projetc built for handle API requests
+LARAVEL projetc built for handle API requests

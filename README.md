@@ -4,6 +4,8 @@ PHP/LARAVEL projetcs samples that i've built
 See Branches for check the projects out
 
 // LARAVEL PROJECTS (With Javascript front-end)
+- <a href='https://github.com/ThiagoMotaIta/ZenQuote-API-Testing'>API Zend Quote</a>
+
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-api'>project-api</a>
 
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-news'>project-news</a>

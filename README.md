@@ -25,3 +25,6 @@ See Branches for check the projects out
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-e-sports'>project-e-sports</a>
 
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-legislator-vote'>project-legislator-vote</a>
+
+// RPA with Python and Selenium
+- <a href='https://github.com/ThiagoMotaIta/RPA'>RPA Samples</a>

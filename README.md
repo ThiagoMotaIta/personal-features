@@ -1,5 +1,5 @@
 # personal-features
-PHP/LARAVEL projetcs samples that i've built
+PHP/LARAVEL projetcs samples that i've built and some RPA projects with PYTHON and SELENIUM
 
 See Branches for check the projects out
 

@@ -16,6 +16,8 @@ See Branches for check the projects out
 
 - <a href='https://github.com/ThiagoMotaIta/bank-transactions'>project-simple-bank-API</a>
 
+- <a href='https://github.com/ThiagoMotaIta/handle-orders'>handle-orders</a>
+
 
 // PURE PHP (With Javascript front-end)
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-cto'>project-cto</a>

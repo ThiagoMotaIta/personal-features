@@ -1,8 +1,6 @@
 # personal-features
 PHP/LARAVEL projetcs samples that i've built and some RPA projects with PYTHON and SELENIUM
 
-See Branches for check the projects out
-
 // LARAVEL PROJECTS (With Javascript front-end)
 - <a href='https://github.com/ThiagoMotaIta/ZenQuote-API-Testing'>API Zend Quote</a>
 

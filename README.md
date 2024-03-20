@@ -4,6 +4,10 @@ PHP/LARAVEL projetcs samples that i've built and some RPA projects with PYTHON a
 // LARAVEL PROJECTS (With Javascript front-end)
 - <a href='https://github.com/ThiagoMotaIta/ZenQuote-API-Testing'>API Zend Quote</a>
 
+- <a href='https://github.com/ThiagoMotaIta/handle-orders'>handle-orders</a>
+
+- <a href='https://github.com/ThiagoMotaIta/bank-transactions'>project-simple-bank-API</a>
+
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-api'>project-api</a>
 
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-news'>project-news</a>
@@ -11,10 +15,6 @@ PHP/LARAVEL projetcs samples that i've built and some RPA projects with PYTHON a
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-sales'>project-sales</a>
 
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-licenciamento'>project-licenciamento</a>
-
-- <a href='https://github.com/ThiagoMotaIta/bank-transactions'>project-simple-bank-API</a>
-
-- <a href='https://github.com/ThiagoMotaIta/handle-orders'>handle-orders</a>
 
 
 // PURE PHP (With Javascript front-end)

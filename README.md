@@ -6,7 +6,7 @@ PHP/LARAVEL projetcs samples that i've built and some RPA projects with PYTHON a
 
 - <a href='https://github.com/ThiagoMotaIta/handle-orders'>handle-orders</a>
 
-- <a href='https://github.com/ThiagoMotaIta/bank-transactions'>project-simple-bank-API</a>
+- <a href='https://github.com/ThiagoMotaIta/Brand-new-Bank-Transictions-Application'>simple-bank-application</a>
 
 - <a href='https://github.com/ThiagoMotaIta/personal-features/tree/project-api'>project-api</a>
 
